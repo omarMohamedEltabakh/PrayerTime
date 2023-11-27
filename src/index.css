@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+.timer {
+    border-bottom: 2px solid #322c24;
+    width: 84.5%;
+}
+
+header {
+    background-color: #2a231d;
+
+
+}
+
+.img {
+    height: 100px !important;
+    overflow: hidden;
+}
+
+.mainColor {
+    color: #817b73 !important;
+}
+
+select {
+    width: 15% !important;
+}
+
+.form-select {
+    background-color: #2a231d !important;
+}
+
+.form-select:focus {
+    box-shadow: none !important;
+    border-color: white !important;
+}
+
+.text-reversed {
+    direction: rtl;
+    text-align: left;
+}
+
+.container {
+    height: inherit;
+    min-height: 100vh;
+}
+
+
+select {
+    min-width: 100px !important;
+}
+
+@media(max-width:1204px) {
+
+    h1 {
+        font-size: 32px;
+    }
+
+}
+
+
+
+
+@media(max-width:768px) {
+
+    .timer {
+        margin-top: 70px !important;
+    }
+
+}
