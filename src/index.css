@@ -67,6 +67,7 @@ select {
 
     .timer {
         margin-top: 70px !important;
+         width: 100%;
     }
 
 }

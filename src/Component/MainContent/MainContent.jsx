@@ -163,16 +163,16 @@ export default function MainContent() {
         <header>
 
 
-            <div className="container d-flex justify-content-center flex-column  ">
+            <div className="container d-flex justify-content-center flex-column mb-md-4  ">
 
-                <div className='  timer row    mb-4 mx-auto text-white  '>
+                <div className='  timer row    mb-4 mx-auto text-white   '>
 
                     <div className=" col-lg-3 col-md-4 col-sm-6 col-6 offset-lg-3 offset-md-2 mb-2  ">
                         <h6 className='mainColor time'>متبقي حتي صلاه {prayersArray[nextPrayer]?.displayName}</h6>
                         <h1 className='text-reversed '>{remainingTime}</h1>
                     </div>
 
-                    <div className="col-lg-3 col-md-4 col-sm-6 col-6 offset-lg-3 offset-md-2 mb-2 ">
+                    <div className="col-lg-3 col-md-4 col-sm-6 col-6 offset-lg-3 offset-md-2 mb-2  ">
                         <h6 className='mainColor date fs-6 d-flex justify-content-end'>{today} </h6>
 
                         <h1 className='d-flex justify-content-end'>{selectedCity}</h1>
