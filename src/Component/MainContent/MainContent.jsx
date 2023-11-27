@@ -163,7 +163,7 @@ export default function MainContent() {
         <header>
 
 
-            <div className="container d-flex justify-content-center flex-column mb-md-4  ">
+            <div className="container container d-flex justify-content-center flex-column   ">
 
                 <div className='  timer row    mb-4 mx-auto text-white   '>
 

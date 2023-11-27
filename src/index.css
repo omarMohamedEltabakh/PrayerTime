@@ -69,5 +69,9 @@ select {
         margin-top: 70px !important;
          width: 100%;
     }
+    .container{
+        padding-bottom: 30px;
+        width: 90% !important;
+    }
 
 }
